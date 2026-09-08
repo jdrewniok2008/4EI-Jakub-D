@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #586d5e;
+    color: #333;
+}
+
+
+header {
+    background-color: #529164;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+
+
+nav {
+    background-color: #73a381;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #586d5ec;
+}
+
+
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+
+
+.kot {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.kot h2 {
+    color: #586d5e;
+    margin-bottom: 15px;
+}
+
+.kot img {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+
+
+
+
+footer {
+    background-color: #4f725f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+
+@media (max-width: 700px) {
+
+    header h1 {
+        font-size: 36px;
+    }
+
+    .ciekawostki {
+        grid-template-columns: 1fr;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+}
