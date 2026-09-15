@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szlak — wypożyczalnia</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <header>
+        <h1>Wypożyczalnia Szlak</h1>
+        <nav>
+            <a href="#cennik"><i>Cennik</I></a>
+            <a href="#rezerwacja"><I>Rezerwacja</I></a>
+        </nav>
+    </header>
+    <main>
+        <section id="sprzet">
+            <h2>Sprzęt</h2>
+            <dl>
+                <dt>Namiot 2-os.</dt>
+                <dd>40 zł za dobę</dd>
+                <dt>Rower trekkingowy</dt>
+                <dd>55 zł za dobę</dd>
+                <dt>Kajak</dt>
+                <dd>70 zł za dobę</dd>
+            </dl>
+        </section>
+        <section id="cennik">
+            <h2>Cennik</h2>
+            <table>
+                    <tr style="background-color: rgb(45, 90, 61); color: white;">
+                        <th>Sprzęt</th>
+                        <th>Doba</th>
+                        <th>Weekend</th>
+                    </tr>
+                    <tr>
+                        <td>Namiot 2-os.</td>
+                        <td class="kwota">40 zł</td>
+                        <td class="kwota">70 zł</td>
+                    </tr>
+                    <tr>
+                        <td>Rower trekkingowy</td>
+                        <td class="kwota">55 zł</td>
+                        <td class="kwota">95 zł</td>
+                    </tr>
+                    <tr>
+                        <td>Kajak</td>
+                        <td class="kwota">70 zł</td>
+                        <td class="kwota">120 zł</td>
+                    </tr>
+            </table>
+        </section>
+        <section id="rezerwacja">
+            <h2>Rezerwacja</h2>
+            <form action="" method="post">
+                <p>
+                    <label for="imie">Imię</label>
+                    <input type="text" id="imie" name="imie">
+                </p>
+                <p>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email">
+                </p>
+                <p>
+                    <label for="sprzet_select">Sprzęt</label>
+                    <select id="sprzet_select" name="sprzet">
+                        <option value="Namiot 2-os.">Namiot 2-os.</option>
+                        <option value="Rower trekkingowy">Rower trekkingowy</option>
+                        <option value="Kajak">Kajak</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="submit" value="Zarezerwuj">
+                </p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        Jakub Drewniok 4EI
+    </footer>
+</body>
+</html>
